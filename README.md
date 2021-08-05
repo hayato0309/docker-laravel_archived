@@ -73,7 +73,7 @@ $ make logs
 
 
 ### FYI
-#### if you want to use a specific laravel version, just replace a step1 command on how to crete laravel project
+#### if you want to use a specific laravel version, just replace a step1 command on [create laravel project and set up](https://github.com/hellomyzn/docker-laravel#crete-laravel-project-and-set-up)
 ```
 # laravel 6
 $ make create-project6
