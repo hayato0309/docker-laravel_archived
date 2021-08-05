@@ -9,9 +9,10 @@
 
 ### how to crete laravel project
 ```
-1. $ make create-project
-2. $ make init
-3. edit db info and app_url on backend/.env file
+1. $ cp .env.template .env
+2. $ make create-project
+3. $ make init
+4. edit db info and app_url on backend/.env file
 
 APP_URL=http://localhost:8080
 
@@ -22,7 +23,7 @@ DB_DATABASE=kredo_laravel
 DB_USERNAME=kredo
 DB_PASSWORD=password
 
-4. $ make migrate
+5. $ make migrate
 ```
 
 ### into container
