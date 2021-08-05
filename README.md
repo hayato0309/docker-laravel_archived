@@ -9,8 +9,8 @@
 
 ### crete laravel project
 ```
-1. git clone this repository
-2. cd docker-laravel
+1. $ git clone this repository
+2. $ cd docker-laravel
 
 3. $ cp .env.template .env
 4. $ make create-project
