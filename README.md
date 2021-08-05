@@ -7,7 +7,7 @@
 - Mysql: 8.0.26
 ```
 
-### crete laravel project
+### crete laravel project and set up
 ```
 1. $ git clone this repository
 2. $ cd docker-laravel
