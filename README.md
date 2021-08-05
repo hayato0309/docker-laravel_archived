@@ -7,12 +7,15 @@
 - Mysql: 8.0.26
 ```
 
-### how to crete laravel project
+### crete laravel project
 ```
-1. $ cp .env.template .env
-2. $ make create-project
-3. $ make init
-4. edit db info and app_url on backend/.env file
+1. git clone this repository
+2. cd docker-laravel
+
+3. $ cp .env.template .env
+4. $ make create-project
+5. $ make init
+6. edit db info and app_url on backend/.env file
 
 APP_URL=http://localhost:8080
 
@@ -23,7 +26,7 @@ DB_DATABASE=kredo_laravel
 DB_USERNAME=kredo
 DB_PASSWORD=password
 
-5. $ make migrate
+8. $ make migrate
 ```
 
 ### into container
